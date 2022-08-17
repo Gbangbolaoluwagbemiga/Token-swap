@@ -1,7 +1,7 @@
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
-
+import '.ITest.sol';
 // WEB3 TOKEN 
 contract ERC20_W3B is IERC20{
   uint public totalsupply=30000;

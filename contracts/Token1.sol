@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
+import './ITest.sol';
 
 contract ERC20_LNK is IERC20{
   uint public totalsupply=30000;
